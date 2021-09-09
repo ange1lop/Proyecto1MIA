@@ -1,0 +1,19 @@
+#ifndef COMANDODISK_H
+#define COMANDODISK_H
+#include <QString>
+#include "string"
+using namespace std;
+
+
+class obmkdisk
+{
+
+public:
+    comando();
+
+    int size;
+    void mostrardatos(obmkdisk *disco);
+
+};
+
+#endif // OBMKDISK_H
